@@ -20578,3 +20578,11 @@ input[type="range"]::-moz-range-thumb {
     margin-top: 24px;
   }
 }
+.toast-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.toast-message{
+    font-size: 14px;
+}

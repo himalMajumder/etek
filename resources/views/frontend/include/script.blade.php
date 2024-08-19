@@ -74,6 +74,8 @@
 
                 // Render cart items
                 renderCartItems(response.cart);
+
+                toastr.success('Product Add to cart successfully', 'Product Added', {timeOut: 5000});
             },
             error: function(xhr, status, error) {
                 console.error(xhr.responseText);
